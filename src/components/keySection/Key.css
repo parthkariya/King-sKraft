@@ -1,0 +1,285 @@
+/* Update blog */
+
+
+.sec-key {
+  width: 100%
+}
+
+.key-main {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.blog-submain {
+  /* height: 100vh; */
+  background-color: var(--color-brand);
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.blog-part1-txt-bg {
+  width: 100%;
+  height: 75px;
+  /* margin: 0 auto; */
+  background-color: var(--color-light-broun);
+  margin: 150px auto;
+
+}
+
+.blog-part1-txt-bg p {
+  margin-bottom: 0px !important;
+  font-weight: 300;
+}
+
+
+.blog-part1-digit {
+  scale: 5 7;
+  /* width: 50px; */
+  /* transform: scaleX(8); */
+  color: var(--color-white);
+  /* font-family: fantasy; */
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+}
+
+.blog-part1-txt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  color: var(--color-brand);
+  font-size: 48px;
+  gap: 7.5%;
+  /* font-family: fantasy; */
+  font-family: 'Oswald', sans-serif;
+  margin-bottom: 0px !important;
+}
+
+.key-img-box {
+  max-width: 350px;
+  max-height: 500px;
+  align-self: center;
+}
+
+.key-img {
+  width: 100%;
+  height: 100%;
+  transform: translateY(45px);
+}
+
+.key-submain2 {
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.key-submain2-txt-part {
+  width: 41%;
+}
+
+.key-submain2-txt-sec {
+  font-size: 22px;
+  line-height: 1;
+  font-weight: 900;
+  color: var(--color-black);
+  width: 350px;
+  margin-bottom: 0px;
+  font-family: var(--font-base);
+}
+
+.key-submain2-digit {
+  font-size: 78px;
+  color: var(--color-golden);
+  font-weight: 900;
+  /* font-family: fantasy; */
+  font-family: 'Oswald', sans-serif;
+  margin-bottom: 0px;
+  letter-spacing: 5px;
+  line-height: 1;
+  margin-top: 30px;
+  /* transform: scale(1.5); */
+}
+
+.key-submain2-last {
+  /* font-family: fantasy; */
+  color: var(--color-black);
+  font-size: 36px;
+  font-weight: 800;
+}
+
+.key-submain2-txt {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.key-submain2-txt-auth {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 0;
+  font-family: var(--font-alt);
+}
+
+.key-submain2-logo-part {
+  display: flex;
+  flex-direction: column;
+}
+
+.key-submain2-txt-part2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.key-submain2-logo-part {
+  display: flex;
+  flex-direction: row;
+  width: 350px;
+  gap: 10px;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+.key-logo-bg {
+  background: var(--color-golden);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 100px;
+  border-radius: 100px
+}
+
+.key-logo-bg>img {
+
+  height: 64px;
+  width: 64px;
+}
+
+.key-submain2-logo-part>p {
+  max-width: 150px;
+  display: flex;
+
+}
+
+
+/* Media Query */
+
+
+@media screen and (max-width:1260px) {
+  .blog-part1-txt {
+    gap: 9.5%;
+  }
+}
+
+@media screen and (max-width:1140px) {
+  .key-submain2-txt-part {
+    padding-left: 20px;
+  }
+
+  .blog-part1-txt {
+    gap: 10.5%;
+  }
+}
+
+@media screen and (max-width:950px) {
+  .blog-part1-txt {
+    gap: 12.5%;
+  }
+}
+
+@media screen and (max-width:840px) {
+  .blog-part1-txt {
+    gap: 12.5%;
+    font-size: 36px;
+  }
+}
+
+@media screen and (max-width:720px) {
+  .key-submain2 {
+    flex-direction: column;
+  }
+
+  .key-submain2-txt-part {
+    width: 100%;
+  }
+
+  .key-submain2-logo-part {
+    width: 100%;
+  }
+
+  .key-submain2 {
+    padding-bottom: 40px;
+    /* padding-right: 20px; */
+    align-items: flex-start;
+
+  }
+
+  .key-submain2-logo-part {
+    justify-content: flex-start;
+    padding-left: 20px;
+  }
+
+}
+
+@media screen and (max-width:640px) {
+  .blog-part1-txt {
+    gap: 10.5%;
+    font-size: 26px;
+  }
+
+  .blog-submain {
+    gap: 0px;
+  }
+}
+
+@media screen and (max-width:530px) {
+  .key-submain2-txt-sec {
+    width: 100%
+  }
+
+  .key-submain2 {
+    align-items: flex-start;
+  }
+}
+
+@media screen and (max-width:430px) {
+  .blog-part1-txt {
+    gap: 7.5%;
+    font-size: 20px;
+  }
+
+  .blog-part1-txt-bg {
+    margin-bottom: 85px;
+  }
+
+  .key-img-box {
+    max-width: 300px;
+    max-height: 300px;
+  }
+
+  .blog-part1-digit {
+    scale: 3 5;
+  }
+
+  .key-logo-bg>img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .key-logo-bg {
+    width: 80px;
+    height: 80px;
+  }
+
+  .key-submain2-last {
+    font-size: 32px;
+  }
+}

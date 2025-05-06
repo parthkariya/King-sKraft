@@ -1,0 +1,125 @@
+.section-our-location {
+  width: 100%;
+  /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5B0kxQptB0PpDNdNPp0qdd3OT_OhOMZEuFA&usqp=CAU"); */
+  background-color: var(--color-section-bg);
+
+  /* background-image: url("https://img.freepik.com/free-photo/isolate-golden-location-pin-white-background-web-location-point-pointer-by-3d-render_616485-76.jpg?w=2000"); */
+
+  /* position: absolute; */
+  /* margin-bottom: 100px; */
+}
+
+.container-our-location {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding-bottom: 80px;
+  /* position: relative; */
+}
+
+.part-our-location {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+
+  /* position: relative; */
+}
+
+.home-our-location-img {
+  width: 100%;
+  height: 100%;
+  min-width: 500px;
+  min-height: 400px;
+  transition: all 0.5s;
+}
+
+.home-our-location-img:hover {
+  transform: scale(1.1);
+}
+
+.our-location-img-link-city{
+  color: var(--color-golden) !important;
+}
+
+.our-location-img-link-city:hover{
+  color: var(--color-white) !important;
+}
+
+.first-part-our-location {
+  /* flex: auto; */
+  position: relative;
+  max-width: 550px;
+  max-height: 350px;
+  overflow: hidden;
+  /* bottom: 0; */
+}
+
+.our-location-img-link {
+  color: var(--color-white);
+  font-size: 1rem;
+  align-items: center;
+}
+
+.our-location-img-link:hover {
+  color: var(--color-light-broun);
+}
+
+.home-our-location-text-box {
+  position: absolute;
+  bottom: 0;
+  z-index: 1;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.our-location-heading {
+  margin: 0;
+  color: #000;
+  font-size: 32px;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  line-height: 1;
+  /* position: relative; */
+  text-align: center;
+  padding-top: 100px;
+}
+
+.our-location-text {
+  margin: 20px 0;
+  text-align: center;
+  font-size: 16px;
+}
+
+@media (max-width: 720px) {
+  .home-our-location-img {
+    min-width: none !important;
+  }
+}
+
+@media (max-width: 550px) {
+  .container-our-location {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .home-our-location-img {
+    width: 100%;
+    height: 100%;
+    min-width: 100%;
+    min-height: 300px;
+    transition: all 0.5s;
+  }
+}
+
+
+@media (min-width: 1140px) {
+  .home-our-location-img {
+    max-width: 500px;
+  }
+}

@@ -1,0 +1,128 @@
+.section-home-about {
+  width: 100%;
+  background: var(--color-brand);
+  padding: 80px;
+}
+
+.container-home-about {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.home-about-parts {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  border: 1px solid white;
+  padding: 32px;
+}
+
+.home-aboutus-img {
+  width: 100%;
+  height: 100%;
+  min-width: 350px;
+  min-height: 350px;
+}
+
+.home-about-part {
+  max-width: 350px;
+  max-height: 500px;
+  overflow: hidden;
+  flex: auto;
+}
+
+.home-about-part-second {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.home-aboutus-heading {
+  color: var(--color-white);
+  font-size: 32px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.aboutus-text {
+  color: var(--color-golden);
+  font-size: 22px;
+}
+
+.home-aboutus-desc {
+  color: var(--color-white);
+  /* line-height: 1.7em; */
+  margin-bottom: 0;
+  margin-top: 0px;
+  font-size: 14px;
+  text-align: justify;
+}
+
+.home-about-us-btn {
+  display: inline-block;
+  background: none;
+  font-family: "Montserrat", sans-serif;
+  white-space: nowrap;
+  text-transform: uppercase;
+  align-self: flex-start;
+  cursor: pointer;
+  line-height: normal;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: var(--color-golden);
+  min-width: 110px;
+  border-width: 0;
+  text-align: center;
+  border: 1px solid var(--color-golden);
+  -webkit-transition: all 0.3s ease;
+}
+
+/* .gold-line-img {
+  width: 100%;
+  height: 100%;
+  max-width: 70px;
+  max-height: 50px;
+} */
+.home-about-us-btn:hover {
+  background-color: var(--color-light-broun);
+  border: 1px solid var(--color-golden);
+  color: var(--color-white);
+}
+
+@media (max-width: 940px) {
+  .home-about-parts {
+    flex-direction: column;
+  }
+
+  .home-about-part {
+    max-width: none;
+  }
+}
+
+@media (max-width: 720px) {
+  .section-home-about {
+    padding: 40px 20px;
+  }
+
+  .home-about-part {
+    max-width: none;
+  }
+}
+
+@media (max-width: 500px) {
+  .home-aboutus-img {
+    min-width: 100%;
+    min-height: 100%;
+    /* min-width: 350px;
+    min-height: 350px; */
+  }
+
+  .home-about-parts {
+    padding: 16px;
+  }
+
+  .home-about-parts2 {
+    padding: 16px !important;
+  }
+}

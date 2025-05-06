@@ -1,0 +1,120 @@
+.section-home-blog {
+  width: 100%;
+  /* background-color: var(--color-whit); */
+  background-color: var(--color-section-bg);
+  padding: 80px 0;
+}
+
+.container-home-blog {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.home-blog-main-heading {
+  font-size: 32px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+}
+
+.blog-part {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-blog {
+  /* box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.07); */
+  /* border-radius: 12px; */
+  box-shadow: 0 2px 8px 0 rgb(0 0 0 / 20%);
+  max-width: 260px;
+  min-width: 260px;
+  margin: 0px;
+  /* min-height: 500px; */
+}
+
+.blog-box {
+  /* padding: 32px; */
+  padding: 15px 20px;
+  text-align: justify;
+  /* min-width: 275px; */
+}
+
+.home-blog img {
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  min-width: 200px;
+  min-height: 200px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.home-blog-heading {
+  color: #a3814f;
+  font-weight: 500;
+  padding-bottom: 10px;
+  font-size: 18px;
+}
+
+.home-blog-desc {
+  line-height: 1.7em;
+  letter-spacing: 0.02em;
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+
+.home-blog-link {
+  color: var(--color-light-gray);
+  font-size: 13px;
+}
+
+.home-blog-view-more-part {
+  margin-top: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+/* figure {
+  margin: 0px;
+} */
+
+.home-blog-view-more-link {
+  border: 1px solid #000;
+  cursor: pointer;
+  color: var(--color-black);
+  text-align: center;
+  padding: 7px 12px;
+  text-transform: uppercase;
+  font-size: 12px;
+  transition: all 0.3s ease;
+}
+
+.home-blog-view-more-link:hover {
+  background-color: var(--color-light-broun);
+  color: var(--color-white);
+  border: none;
+  cursor: pointer;
+}
+
+/* .chair-details {
+  list-style: none;
+  margin-bottom: 48px;
+} */
+
+@media (max-width: 920px) {
+  .blog-part {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-start;
+    max-width: 99%;
+    padding: 1% 4%;
+    overflow-x: scroll;
+  }
+}

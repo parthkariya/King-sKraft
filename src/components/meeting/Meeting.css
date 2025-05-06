@@ -1,0 +1,16 @@
+.home-about-parts2 {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  border: 1px solid var(--color-brand);
+  padding: 32px;
+  flex-direction: row-reverse;
+  text-align: end;
+}
+
+@media (max-width: 920px) {
+  .home-about-parts2 {
+    flex-direction: column;
+    text-align: start;
+  }
+}
